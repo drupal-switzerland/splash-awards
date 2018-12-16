@@ -2,7 +2,7 @@ version: '2.3'
 
 x-lagoon-project:
   # Lagoon project name (leave `&lagoon-project` when you edit this)
-  &lagoon-project ${COMPOSE_PROJECT_NAME}
+  &lagoon-project splash-awards-ch
 
 x-volumes:
   &default-volumes
