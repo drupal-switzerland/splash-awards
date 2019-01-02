@@ -1,0 +1,27 @@
+uuid: efdcebc8-7559-4b3e-a2d9-918641dbb139
+langcode: nl
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - splashawards_ch
+_core:
+  default_config_hash: qL6CKOtv1ew-4hN7_VAowjQS0hOpxekI4nV5q2TYDQQ
+id: splashawards_ch_pagetitle_2
+theme: splashawards_ch
+region: content
+weight: -4
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "/voting\r\n/voting/*\r\n/user\r\n/user/*\r\n/nominaties"
+    negate: false
+    context_mapping: {  }

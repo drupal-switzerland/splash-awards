@@ -1,0 +1,38 @@
+uuid: 0efdc15c-be62-4149-a59a-0cb31fdb1dc7
+langcode: nl
+status: false
+dependencies:
+  module:
+    - node
+    - system
+    - webform
+  theme:
+    - splashawards_ch
+_core:
+  default_config_hash: mCHP2zfavgYja0sIVozEL_GyZ7rSYwao8diUmUl-rJA
+id: splashawards_ch_webform
+theme: splashawards_ch
+region: content
+weight: 0
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: Vote
+  provider: webform
+  label_display: visible
+  webform_id: vote
+  default_data: ''
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      case: case
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: '/node/add/*'
+    negate: true
+    context_mapping: {  }

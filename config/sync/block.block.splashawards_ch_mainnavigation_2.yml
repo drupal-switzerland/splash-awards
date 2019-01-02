@@ -1,0 +1,26 @@
+uuid: 1e90a55a-e1f4-4426-a855-205349eb29c5
+langcode: nl
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - splashawards_ch
+_core:
+  default_config_hash: zNDkZmF_aNehaeZGpHcDhM8P88SyeP37z5BpLAYy2pg
+id: splashawards_ch_mainnavigation_2
+theme: splashawards_ch
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

@@ -1,0 +1,20 @@
+.footer-link {
+  color: #fff;
+}
+
+.footer-link:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-link span {
+  display: block;
+}
+
+._margin-top {
+  margin-top: 20px;
+}
+
+._margin-top-4 {
+  margin-top: 80px;
+}

@@ -1,0 +1,35 @@
+uuid: f7766028-717f-44ae-88dc-6a8427e5e1ee
+langcode: nl
+status: true
+dependencies:
+  config:
+    - views.view.cases_pager
+  module:
+    - node
+    - views
+  theme:
+    - splashawards_ch
+_core:
+  default_config_hash: o67tbwdcg8KpP3tsToIRbbi9dXyL5tBcABW9M6HD6u4
+id: splashawards_ch_views_block__cases_pager_block
+theme: splashawards_ch
+region: content
+weight: -2
+provider: null
+plugin: 'views_block:cases_pager-block'
+settings:
+  id: 'views_block:cases_pager-block'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      case: case
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

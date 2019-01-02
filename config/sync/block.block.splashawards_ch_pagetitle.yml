@@ -1,0 +1,37 @@
+uuid: 3763a0cf-a898-4996-aca2-e489def3fa32
+langcode: nl
+status: true
+dependencies:
+  module:
+    - node
+    - system
+  theme:
+    - splashawards_ch
+_core:
+  default_config_hash: DBe7rFN7FLuaqS9Rujuu9l4yQ2O_eY3RGZkeFsfNgEk
+id: splashawards_ch_pagetitle
+theme: splashawards_ch
+region: content
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+      case: case
+      sponsor: sponsor
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

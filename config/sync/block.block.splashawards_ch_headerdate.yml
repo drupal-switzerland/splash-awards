@@ -1,0 +1,23 @@
+uuid: 41d1ede4-5549-4c76-a1af-48741abf8840
+langcode: nl
+status: false
+dependencies:
+  theme:
+    - splashawards_ch
+_core:
+  default_config_hash: 0bq3pQ9wU3gy_RU9fuBct8uR4fDcRf9bu5ZLTlQxM-c
+id: splashawards_ch_headerdate
+theme: splashawards_ch
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:bbf36b86-f641-4faf-9448-abf82cd46309'
+settings:
+  id: 'block_content:bbf36b86-f641-4faf-9448-abf82cd46309'
+  label: 'Header date'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

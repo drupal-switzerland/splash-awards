@@ -1,0 +1,25 @@
+uuid: 6140a3b0-75ee-4e09-9c32-b6b127abf4de
+langcode: nl
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - splashawards_ch
+_core:
+  default_config_hash: JIR0ONn_9bwsB158w5xgbllE4hBHutfOdIKLGOhPXow
+id: splashawards_ch_sitebranding
+theme: splashawards_ch
+region: header
+weight: -3
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: true
+visibility: {  }

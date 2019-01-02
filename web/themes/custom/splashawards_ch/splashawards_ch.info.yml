@@ -1,0 +1,8 @@
+name: Splash Awards Switzerland
+core: 8.x
+type: theme
+description: 'Theme for Splash Awards Switzerland.'
+base theme: splashawards_base
+
+libraries:
+  - 'splashawards_ch/splashawards-ch'

@@ -1,0 +1,25 @@
+uuid: 9bdca5b0-0d47-442f-a854-3ac88c699554
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:header:737b18ad-7aa1-4a0c-9210-2c951a05dbed'
+  module:
+    - block_content
+  theme:
+    - splashawards_ch
+id: headerdatenew
+theme: splashawards_ch
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:737b18ad-7aa1-4a0c-9210-2c951a05dbed'
+settings:
+  id: 'block_content:737b18ad-7aa1-4a0c-9210-2c951a05dbed'
+  label: 'Header Date New'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

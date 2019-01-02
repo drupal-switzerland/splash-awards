@@ -1,0 +1,114 @@
+uuid: 3b70f875-b968-4f5f-ba2c-f58b7fbfa1b0
+langcode: nl
+status: true
+dependencies:
+  module:
+    - social_media_links
+  theme:
+    - splashawards_ch
+_core:
+  default_config_hash: 6zrWo2tIaEAJXEXt1IAjT9neFZMAXsbowiZl6qLDYCg
+id: splashawards_ch_socialmedialinks
+theme: splashawards_ch
+region: footer
+weight: -3
+provider: null
+plugin: social_media_links_block
+settings:
+  id: social_media_links_block
+  label: 'Social Media Links'
+  provider: social_media_links
+  label_display: '0'
+  platforms:
+    facebook:
+      value: ''
+      description: 'Volg ons op Facebook'
+      weight: '-10'
+    flickr:
+      value: ''
+      description: ''
+      weight: '-10'
+    vkontakte:
+      value: ''
+      description: ''
+      weight: '-9'
+    linkedin:
+      value: company/drupal-mountain-camp/
+      description: 'Volg ons op LinkedIn'
+      weight: '-9'
+    twitter:
+      value: mountaincampch
+      description: 'Volg ons op Twitter'
+      weight: '-8'
+    behance:
+      value: ''
+      description: ''
+      weight: '-7'
+    bitbucket:
+      value: ''
+      description: ''
+      weight: '-6'
+    contact:
+      value: ''
+      description: ''
+      weight: '-5'
+    drupal:
+      value: ''
+      description: ''
+      weight: '-4'
+    email:
+      value: ''
+      description: ''
+      weight: '-3'
+    github:
+      value: ''
+      description: ''
+      weight: '-2'
+    googleplus:
+      value: ''
+      description: ''
+      weight: '-1'
+    instagram:
+      value: ''
+      description: ''
+      weight: '0'
+    pinterest:
+      value: ''
+      description: ''
+      weight: '1'
+    rss:
+      value: ''
+      description: ''
+      weight: '2'
+    slideshare:
+      value: ''
+      description: ''
+      weight: '3'
+    tumblr:
+      value: ''
+      description: ''
+      weight: '4'
+    vimeo:
+      value: ''
+      description: ''
+      weight: '5'
+    youtube:
+      value: ''
+      description: ''
+      weight: '6'
+    youtube_channel:
+      value: ''
+      description: ''
+      weight: '7'
+  appearance:
+    orientation: h
+    show_name: 0
+  link_attributes:
+    target: '<none>'
+    rel: '<none>'
+  iconset:
+    style: 'fontawesome:2x'
+    installed_iconsets:
+      fontawesome:
+        examples: ''
+visibility: {  }
