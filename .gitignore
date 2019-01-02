@@ -22,4 +22,7 @@
 # Ignore modules and themes checkout out into sites/default for local development.
 /web/modules/development
 /web/themes/development
+/web/sites/default/settings.local.php
 node_modules
+
+/bin
