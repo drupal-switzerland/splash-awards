@@ -1,0 +1,60 @@
+/**
+ * Section styles.
+ */
+section.banner {
+  padding: 100px 0;
+
+  &.center {
+    text-align: center;
+  }
+
+  &.grey {
+    background-color: $section-grey-background-color;
+    color: $section-grey-color;
+    .list ul li {
+      background-color: $list-section-grey-background-color;
+    }
+  }
+  &.black {
+    background-color: $section-black-background-color;
+    color: $section-black-color;
+    a {
+      color: $section-black-link-color;
+      &:hover {
+        color: $section-black-link-hover-color;
+      }
+    }
+    .list ul li {
+      background-color: $list-section-black-background-color;
+      h2 a {
+        color: $section-black-link-color;
+      }
+    }
+  }
+  &.green {
+    background-color: $section-green-background-color;
+    color: $section-green-color;
+    a {
+      color: $section-green-link-color;
+      &:hover {
+        color: $section-green-link-hover-color;
+      }
+    }
+    .list ul li {
+      background-color: $list-section-green-background-color;
+      h2 a {
+        color: $section-green-link-color;
+      }
+    }
+  }
+
+  @media #{$normal} {
+    padding: 80px 0;
+  }
+  @media #{$tablet} {
+    padding: 60px 0;
+  }
+  @media #{$mobile} {
+    padding: 40px 0;
+  }
+}

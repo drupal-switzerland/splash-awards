@@ -1,0 +1,34 @@
+/**
+ * Generic HTML element styles.
+ */
+html body {
+  margin: 0;
+  font-weight: lighter;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: $font-family-serif;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+h1.page-header {
+  border: 0;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+.main-container.container h1.page-header {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+p.intro {
+  font-size: $font-size-intro;
+}
+
+a {
+  text-decoration: underline;
+  &:hover {
+    text-decoration: none;
+  }
+}

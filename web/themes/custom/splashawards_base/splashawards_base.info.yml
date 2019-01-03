@@ -1,0 +1,24 @@
+core: 8.x
+type: theme
+base theme: bootstrap
+
+name: Splash Awards Base Theme
+description: 'Base theme for the Splash Awards Drupal 8 distribution.'
+package: 'Bootstrap'
+
+regions:
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  header: 'Header'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+libraries:
+  - 'splashawards_base/global-styling'
+  - 'splashawards_base/bootstrap-scripts'

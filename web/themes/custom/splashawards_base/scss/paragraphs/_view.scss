@@ -1,0 +1,64 @@
+/**
+ * Section styles.
+ */
+.list {
+  .content > .item-list > ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: $container-padding 0;
+    padding: 0;
+    list-style-type: none;
+    justify-content: center;
+    margin-left: -$container-padding;
+    > li {
+      flex: 1 0 calc(50% - #{$container-padding}); // Change to 30% to create 3 column layout in stead of 2.
+      min-width: calc(50% - #{$container-padding});
+      max-width: calc(50% - #{$container-padding});
+      background-color: $list-background-color;
+      margin-left: $container-padding;
+      margin-bottom: $container-padding;
+      word-wrap: break-word;
+      text-align: start;
+
+      img {
+        margin: 0;
+        float: none;
+      }
+      .wrapper {
+        padding: $container-padding;
+        h2 {
+          font-size: $font-size-h4;
+          padding-bottom: 0;
+          a {
+            color: $text-color;
+            text-decoration: none;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+        .date {
+          color: $date-color;
+          margin-bottom: 5px;
+        }
+      }
+
+      @media #{$mobile-portrait} {
+        flex: 1 0 calc(100% - #{$container-padding});
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+.list.sponsors.silver .content > .item-list > ul > li {
+  flex: 1 0 calc(33.3% - #{$container-padding}); // Change to 30% to create 3 column layout in stead of 2.
+  min-width: calc(33.3% - #{$container-padding});
+  max-width: calc(33.3% - #{$container-padding});
+}
+
+.list.sponsors.bronze .content > .item-list > ul > li {
+  flex: 1 0 calc(25% - #{$container-padding}); // Change to 30% to create 3 column layout in stead of 2.
+  min-width: calc(25% - #{$container-padding});
+  max-width: calc(25% - #{$container-padding});
+}

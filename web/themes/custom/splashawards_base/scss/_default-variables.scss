@@ -1,0 +1,116 @@
+/**
+ * Default Variables.
+ *
+ * Modify this file to provide default Bootstrap Framework variables. The
+ * Bootstrap Framework will not override any variables defined here because it
+ * uses the `!default` flag which will only set their default if not already
+ * defined here.
+ *
+ * You can copy existing variables directly from the following file:
+ * ./splashawards_base/bootstrap/assets/stylesheets/bootstrap/_variables.scss
+ */
+
+// Set the proper directory for the Bootstrap Glyphicon font.
+$icon-font-path: '../bootstrap/assets/fonts/bootstrap/';
+
+//== Media queries breakpoints
+$screen-sm-min:           768px !default;
+$screen-md-min:           992px !default;
+$screen-lg-min:           1200px !default;
+$screen-xs-max:           ($screen-sm-min - 1) !default;
+$screen-sm-max:           ($screen-md-min - 1) !default;
+$screen-md-max:           ($screen-lg-min - 1) !default;
+$mobile-portrait:         "screen and (max-width: 479px)";
+$mobile:                  "screen and (max-width: #{$screen-xs-max})";
+$tablet:                  "screen and (min-width: #{$screen-sm-min})";
+$normal:                  "screen and (min-width: #{$screen-md-min})";
+$wide:                    "screen and (min-width: #{$screen-lg-min})";
+
+//== Page
+$body-bg:                 #fafafa !default;
+$page-wrapper-max-width:  1600px;
+$page-wrapper-bg:         #fff !default;
+$container-padding:       15px;
+$nav-link-padding:        10px 15px !default;
+
+//== Scaffolding
+$text-color:              #020202 !default;
+$date-color:              #cecece !default;
+$link-color:              #48A3A6 !default;
+$link-hover-color:        darken($link-color, 15%) !default;
+$link-hover-decoration:   underline !default;
+
+//== Typography
+$font-family-sans-serif:  "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-serif:       "Roboto Slab Bold", Georgia, "Times New Roman", Times, serif !default;
+$font-family-base:        $font-family-sans-serif !default;
+$font-family-heading:     $font-family-serif !default;
+$font-size-base:          16px !default;
+$font-size-h1:            floor(($font-size-base * 3.2)) !default;
+$font-size-h2:            floor(($font-size-base * 2.6)) !default;
+$font-size-h3:            ceil(($font-size-base * 2.1)) !default;
+$font-size-h4:            ceil(($font-size-base * 1.7)) !default;
+$font-size-intro:         ceil(($font-size-base * 1.7)) !default;
+
+//== Footer
+$header-color:                    #fff !default;
+$header-date-bg:                  #48A3A6 !default;
+
+//== Footer
+$footer-bg:                       #020202 !default;
+$footer-color:                    #fff !default;
+$footer-link-color:               #fff !default;
+$footer-link-hover-color:         #f5f5f5 !default;
+$footer-social-icon-size:         35px;
+$footer-social-icon-font-size:    20px;
+$footer-social-link-color:        #020202 !default;
+$footer-social-link-bg:           #fff !default;
+$footer-social-link-hover-color:  #020202 !default;
+$footer-social-link-hover-bg:     #f5f5f5 !default;
+
+//== Navigation
+$navbar-border-radius:            0 !default;
+$navbar-default-color:            #E7EBED !default;
+$navbar-default-bg:               transparent !default;
+$navbar-default-border:           darken($navbar-default-bg, 6.5%) !default;
+$navbar-mobile-bg:                rgba(#000, 0.8);
+// Navbar links
+$navbar-default-link-color:                #E7EBED !default;
+$navbar-default-link-hover-color:          #fff !default;
+$navbar-default-link-hover-bg:             #48A3A6 !default;
+$navbar-default-link-active-color:         #fff !default;
+$navbar-default-link-active-bg:            #48A3A6 !default;
+// Navbar toggle
+$navbar-default-toggle-text-color:         #fff !default;
+$navbar-default-toggle-hover-bg:           transparent !default;
+$navbar-default-toggle-icon-bar-bg:        #fff !default;
+$navbar-default-toggle-border-color:       #ddd !default;
+
+//== Sections
+$section-grey-background-color:            #f5f5f5 !default;
+$section-grey-color:                       $text-color;
+$section-black-background-color:           #020202 !default;
+$section-black-color:                      #fff !default;
+$section-black-link-color:                 #fff !default;
+$section-black-link-hover-color:           darken($section-black-link-color, 15%) !default;
+$section-green-background-color:           #48A3A6 !default;
+$section-green-color:                      #fff !default;
+$section-green-link-color:                 #fff !default;
+$section-green-link-hover-color:           darken($section-green-link-color, 15%) !default;
+
+//== Lists
+$list-background-color:                    #f4f4f4 !default;
+$list-section-grey-background-color:       #fff !default;
+$list-section-black-background-color:      #111 !default;
+$list-section-green-background-color:      #48999C !default;
+
+//== Forms
+$form-btn-success-background-color:        #48999C !default;
+$form-btn-success-background-hover-color:  darken($form-btn-success-background-color, 15%) !default;
+
+//== Cases nav
+$cases-nav-text-color:                     #fff !default;
+$cases-nav-background-color:               #48A3A6 !default;
+$cases-nav-background-hover-color:         darken($form-btn-success-background-color, 15%) !default;
+$cases-nav-disabled-text-color:            #111 !default;
+$cases-nav-disabled-background-color:      #f5f5f5 !default;

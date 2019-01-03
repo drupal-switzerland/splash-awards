@@ -1,0 +1,53 @@
+/**
+ * Header styles.
+ */
+footer.container-fluid {
+  background-color: $footer-bg;
+  color: $footer-color;
+  padding: 100px 0;
+  margin-top: 0;
+  ul.platforms {
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    li {
+      display: inline-block;
+      margin: 0 10px;
+      a {
+        display: inline-block;
+        color: $footer-social-link-color;
+        background-color: $footer-social-link-bg;
+        width: $footer-social-icon-size;
+        height: $footer-social-icon-size;
+        line-height: $footer-social-icon-size;
+        border-radius: 50%;
+        &:hover {
+          color: $footer-social-link-hover-color;
+          background-color: $footer-social-link-hover-bg;
+        }
+        span {
+          line-height: $footer-social-icon-size;
+          font-size: $footer-social-icon-font-size;
+        }
+      }
+    }
+  }
+  ul.menu {
+    display: block;
+    width: 300px;
+    text-align: center;
+    margin: 20px auto 0 auto;
+    li {
+      display: inline-block;
+      a {
+        display: inline-block;
+        color: $footer-link-color;
+        &:hover {
+          color: $footer-link-hover-color;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}
