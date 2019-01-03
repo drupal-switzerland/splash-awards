@@ -1,0 +1,22 @@
+uuid: f174408e-05f4-4eed-b676-cf7df004fe7c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.case
+id: node.case.status
+field_name: status
+entity_type: node
+bundle: case
+label: Publicatiestatus
+description: 'Een binaire waarde die aangeeft of de node is gepubliceerd.'
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Aan
+  off_label: Uit
+field_type: boolean

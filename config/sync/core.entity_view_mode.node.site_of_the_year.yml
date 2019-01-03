@@ -1,0 +1,10 @@
+uuid: caab1409-1775-418c-bf63-ab0e83921ab6
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.site_of_the_year
+label: 'Site of the year'
+targetEntityType: node
+cache: true

@@ -1,0 +1,9 @@
+uuid: 1afb29bd-647d-4d30-b588-114b8a4d0fe6
+langcode: en
+status: true
+dependencies: {  }
+name: 'Case Categories'
+vid: case_categories
+description: ''
+hierarchy: 0
+weight: 0

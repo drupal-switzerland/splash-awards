@@ -1,0 +1,11 @@
+uuid: 53cc5772-0bdf-4228-93ef-07f885da296f
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.case_categories
+id: taxonomy_term.case_categories
+target_entity_type_id: taxonomy_term
+target_bundle: case_categories
+default_langcode: site_default
+language_alterable: false

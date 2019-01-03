@@ -1,0 +1,21 @@
+uuid: 4b537857-0e39-478c-bbaf-052c28e6d98f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - splashawards_base
+id: headerdate
+theme: splashawards_base
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:bbf36b86-f641-4faf-9448-abf82cd46309'
+settings:
+  id: 'block_content:bbf36b86-f641-4faf-9448-abf82cd46309'
+  label: 'Header date'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

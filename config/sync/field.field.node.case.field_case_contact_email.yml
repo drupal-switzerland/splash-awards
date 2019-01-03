@@ -1,0 +1,19 @@
+uuid: 6b72d04e-7cac-4d1e-a525-4fabe5f9ee0f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_case_contact_email
+    - node.type.case
+id: node.case.field_case_contact_email
+field_name: field_case_contact_email
+entity_type: node
+bundle: case
+label: 'E-mail address contact person'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

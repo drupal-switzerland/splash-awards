@@ -1,0 +1,25 @@
+uuid: 6211002a-c7d5-407e-baa9-05e5f783f4d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_case_video
+    - node.type.case
+  module:
+    - video_embed_field
+id: node.case.field_case_video
+field_name: field_case_video
+entity_type: node
+bundle: case
+label: Video
+description: 'Link a video-presentation about the project on YouTube of Vimeo.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    vimeo: vimeo
+    youtube: youtube
+    youtube_playlist: '0'
+field_type: video_embed_field

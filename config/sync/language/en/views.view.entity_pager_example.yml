@@ -1,0 +1,18 @@
+label: 'Entity pager example'
+description: 'This demonstrates a basic use case for Entity Pager.'
+display:
+  default:
+    display_title: Master
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Apply
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      fields:
+        nid:
+          separator: ', '
+  entity_pager_example_block:
+    display_title: Block

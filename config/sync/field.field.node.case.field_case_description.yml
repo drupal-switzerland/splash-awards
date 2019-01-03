@@ -1,0 +1,19 @@
+uuid: 68149aa1-b54a-44e1-ab2a-cd36d0bff007
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_case_description
+    - node.type.case
+id: node.case.field_case_description
+field_name: field_case_description
+entity_type: node
+bundle: case
+label: 'Project description'
+description: 'Was the reason for the project? Which objectives have been set for the project? Have these objectives been achieved? Are there specific facts and figures that may be of interest to the jury?'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

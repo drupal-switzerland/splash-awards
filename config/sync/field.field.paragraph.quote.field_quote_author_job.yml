@@ -1,0 +1,19 @@
+uuid: 5f3a1307-0cf6-4ddf-94fe-16229b4e77e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_quote_author_job
+    - paragraphs.paragraphs_type.quote
+id: paragraph.quote.field_quote_author_job
+field_name: field_quote_author_job
+entity_type: paragraph
+bundle: quote
+label: Functietitel
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

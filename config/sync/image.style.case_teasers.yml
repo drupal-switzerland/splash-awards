@@ -1,0 +1,23 @@
+uuid: a61d30b7-c0bb-43f7-9028-e3bb75af3c71
+langcode: en
+status: true
+dependencies: {  }
+name: case_teasers
+label: 'Case teasers (640×357)'
+effects:
+  dabcb729-4f38-44f9-8e85-2eff605dd2d0:
+    uuid: dabcb729-4f38-44f9-8e85-2eff605dd2d0
+    id: image_crop
+    weight: -9
+    data:
+      width: 640
+      height: 357
+      anchor: center-top
+  9eb92ee9-9ff6-4488-8b6b-3b17f45d8e8a:
+    uuid: 9eb92ee9-9ff6-4488-8b6b-3b17f45d8e8a
+    id: image_scale
+    weight: -10
+    data:
+      width: 640
+      height: null
+      upscale: false

@@ -1,0 +1,23 @@
+uuid: 31e3ce26-e595-469c-8d32-0397a6aaffe7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_case_terms_agreed
+    - node.type.case
+id: node.case.field_case_terms_agreed
+field_name: field_case_terms_agreed
+entity_type: node
+bundle: case
+label: ' I agree to the terms of submission'
+description: 'Please read the <a href="/voorwaarden-inzending">terms for sumbitting</a>.'
+required: true
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Aan
+  off_label: Uit
+field_type: boolean

@@ -1,0 +1,279 @@
+uuid: c6f0e51c-f674-4e46-b940-9b91fad61a64
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.case.field_case_category
+    - field.field.node.case.field_case_challenges
+    - field.field.node.case.field_case_contact_email
+    - field.field.node.case.field_case_contact_name
+    - field.field.node.case.field_case_contact_phone
+    - field.field.node.case.field_case_contributions
+    - field.field.node.case.field_case_customer
+    - field.field.node.case.field_case_customer_logo
+    - field.field.node.case.field_case_description
+    - field.field.node.case.field_case_invoice_email
+    - field.field.node.case.field_case_launch_date
+    - field.field.node.case.field_case_logo
+    - field.field.node.case.field_case_organisation
+    - field.field.node.case.field_case_screenshots
+    - field.field.node.case.field_case_summary
+    - field.field.node.case.field_case_terms_agreed
+    - field.field.node.case.field_case_url
+    - field.field.node.case.field_case_video
+    - field.field.node.case.field_intro
+    - field.field.node.case.field_site_of_year
+    - field.field.node.case.field_winner
+    - image.style.thumbnail
+    - node.type.case
+  module:
+    - datetime
+    - field_group
+    - image
+    - link
+    - markup
+    - telephone
+    - video_embed_field
+third_party_settings:
+  field_group:
+    group_over_de_indiener:
+      children:
+        - field_case_organisation
+        - field_case_logo
+        - field_case_contact_name
+        - field_case_contact_email
+        - field_case_contact_phone
+        - field_case_invoice_email
+        - field_case_terms_agreed
+      parent_name: ''
+      weight: 4
+      format_type: fieldset
+      format_settings:
+        label: 'About who is submitting the case'
+        description: ''
+        id: ''
+        classes: ''
+        required_fields: false
+      label: 'About who is submitting the case'
+      region: content
+    group_over_de_case:
+      children:
+        - field_case_category
+        - title
+        - field_case_launch_date
+        - field_case_summary
+        - field_case_description
+        - field_case_challenges
+        - field_case_contributions
+        - field_case_url
+        - field_case_customer
+        - field_case_customer_logo
+        - field_case_screenshots
+        - field_case_video
+      parent_name: ''
+      weight: 3
+      format_type: fieldset
+      format_settings:
+        label: 'About the case'
+        description: ''
+        id: ''
+        classes: ''
+        required_fields: false
+      label: 'About the case'
+      region: content
+id: node.case.default
+targetEntityType: node
+bundle: case
+mode: default
+content:
+  field_case_category:
+    weight: 11
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_case_challenges:
+    weight: 16
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_case_contact_email:
+    weight: 29
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_case_contact_name:
+    weight: 28
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_case_contact_phone:
+    weight: 30
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: telephone_default
+    region: content
+  field_case_contributions:
+    weight: 17
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_case_customer:
+    weight: 19
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_case_customer_logo:
+    weight: 20
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_case_description:
+    weight: 15
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_case_invoice_email:
+    weight: 31
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_case_launch_date:
+    weight: 13
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_case_logo:
+    weight: 27
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_case_organisation:
+    weight: 26
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_case_screenshots:
+    weight: 21
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_case_summary:
+    weight: 14
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings:
+      maxlength:
+        maxlength_js: 400
+        maxlength_js_label: 'Remaining characters: <strong>@remaining</strong>'
+        maxlength_js_enforce: true
+        maxlength_js_truncate_html: true
+    type: string_textarea
+    region: content
+  field_case_terms_agreed:
+    weight: 32
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_case_url:
+    weight: 18
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_case_video:
+    weight: 22
+    settings: {  }
+    third_party_settings: {  }
+    type: video_embed_field_textfield
+    region: content
+  field_intro:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: markup
+    region: content
+  field_site_of_year:
+    weight: 1
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_winner:
+    weight: 0
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 6
+    third_party_settings: {  }
+    region: content
+  title:
+    type: string_textfield
+    weight: 12
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  uid:
+    type: entity_reference_autocomplete_tags
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  langcode: true
+  path: true
+  promote: true
+  sticky: true

@@ -1,0 +1,25 @@
+uuid: a41419af-ce75-41ab-89cd-74d6980b1caa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_intro
+    - node.type.case
+  module:
+    - markup
+id: node.case.field_intro
+field_name: field_intro
+entity_type: node
+bundle: case
+label: Intro
+description: ''
+required: false
+translatable: false
+default_value:
+  - {  }
+default_value_callback: ''
+settings:
+  markup:
+    value: "<p class=\"intro\">Submitting a case will cost €50,- per case. For members of the Stichting Drupal Nederland the first submission will be free from charge. Cases can be submitted until January 31st 11:59PM.</p>\r\n\r\n<p>Cases can be submitted in <a href=\"/categorieen\">8 categories</a>. Please be sure to read the <a href=\"/voorwaarden-inzending\">rules</a> before you submit you case.</p>\r\n\r\n<p>Please submit your case in English.</p>\r\n"
+    format: basic_html
+field_type: markup

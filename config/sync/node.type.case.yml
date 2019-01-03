@@ -1,0 +1,17 @@
+uuid: 404d68b8-12d0-490e-9ddc-b832fa113dd9
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Case
+type: case
+description: "Het inzenden van een case kost € 50,- per case. Voor partners van de Stichting Drupal Nederland is de eerste inzending gratis. De deadline voor inzenden is 31 januari 23.59 uur.\r\n\r\nEr kunnen cases worden ingezonden voor 8 categorieën. Lees voor het inzenden wel de spelregels even door."
+help: 'Het inzenden van een case kost € 50,- per case. Voor partners van de Stichting Drupal Nederland is de eerste inzending gratis. De deadline voor inzenden is 31 januari 23.59 uur. Er kunnen cases worden ingezonden voor 8 categorieën. Lees voor het inzenden wel de spelregels even door.'
+new_revision: false
+preview_mode: 0
+display_submitted: false

@@ -1,0 +1,119 @@
+uuid: 8d095edf-e09a-42dc-852f-cad435976a85
+langcode: en
+status: open
+dependencies: {  }
+open: null
+close: null
+weight: 0
+uid: 1
+template: false
+archive: false
+id: register
+title: Aanmelden
+description: ''
+category: ''
+elements: "name:\n  '#type': textfield\n  '#title': Naam\n  '#required': true\ncompany:\n  '#type': textfield\n  '#title': Bedrijf\n  '#required': true\nemail:\n  '#type': email\n  '#title': 'E-mail adres'\n  '#required': true\nemployees:\n  '#type': select\n  '#title': 'Aantal medewerkers'\n  '#options':\n    1: '1'\n    2: '2'\n    3: '3'\n    4: '4'\n    5: '5'\n    6: '6'\n    7: '7'\n    8: '8'\n    9: '9'\n    10: '10'\n  '#empty_value': '0'\nclients:\n  '#type': select\n  '#title': 'Aantal klanten'\n  '#options':\n    1: '1'\n    2: '2'\n    3: '3'\n    4: '4'\n    5: '5'\n    6: '6'\n    7: '7'\n    8: '8'\n    9: '9'\n    10: '10'\n  '#empty_value': '0'\nactions:\n  '#type': webform_actions\n  '#title': 'Submit button(s)'\n  '#submit__label': Aanmelden\n"
+css: ''
+javascript: ''
+settings:
+  ajax: false
+  ajax_scroll_top: form
+  page: true
+  page_submit_path: ''
+  page_confirm_path: ''
+  form_submit_once: false
+  form_exception_message: ''
+  form_open_message: ''
+  form_close_message: ''
+  form_previous_submissions: true
+  form_confidential: false
+  form_confidential_message: ''
+  form_convert_anonymous: false
+  form_prepopulate: false
+  form_prepopulate_source_entity: false
+  form_prepopulate_source_entity_required: false
+  form_prepopulate_source_entity_type: ''
+  form_reset: false
+  form_disable_autocomplete: false
+  form_novalidate: false
+  form_unsaved: false
+  form_disable_back: false
+  form_autofocus: false
+  form_details_toggle: false
+  submission_label: ''
+  submission_log: false
+  submission_user_columns: {  }
+  wizard_progress_bar: true
+  wizard_progress_pages: false
+  wizard_progress_percentage: false
+  wizard_start_label: ''
+  wizard_confirmation: true
+  wizard_confirmation_label: ''
+  wizard_track: ''
+  preview: 0
+  preview_label: ''
+  preview_title: ''
+  preview_message: ''
+  preview_attributes: {  }
+  preview_excluded_elements: {  }
+  preview_exclude_empty: true
+  draft: none
+  draft_multiple: false
+  draft_auto_save: false
+  draft_saved_message: ''
+  draft_loaded_message: ''
+  confirmation_type: page
+  confirmation_title: 'Dank voor je aanwezigheid'
+  confirmation_message: "Beste [webform_submission:values:name],<br />\r\n<br />\r\nWe hebben je reservering voor&nbsp;[webform_submission:values:employees] medewerker(s) en&nbsp;[webform_submission:values:clients] klant(en) ontvangen. We zien jullie graag op 22 maart in Het Muntgebouw in Utrecht!<br />\r\n<br />\r\nDe deuren gaan open om 19:00. Het evenement begint om&nbsp;<strong>20:00</strong>&nbsp;en zal duren tot ongeveer&nbsp;<strong>22:30</strong>. &nbsp;De aansluitende borrel zal tot uiterlijk 23:30 duren. Op deze gala avond is nette kleding gewenst!<br />\r\n<br />\r\nOrganisatie Splash Awards"
+  confirmation_url: ''
+  confirmation_attributes: {  }
+  confirmation_back: true
+  confirmation_back_label: ''
+  confirmation_back_attributes: {  }
+  limit_total: null
+  limit_total_message: ''
+  limit_user: null
+  limit_user_message: ''
+  purge: none
+  purge_days: null
+  entity_limit_total: null
+  entity_limit_user: null
+  results_disabled: false
+  results_disabled_ignore: false
+  token_update: false
+access:
+  create:
+    roles:
+      - anonymous
+      - authenticated
+    users: {  }
+    permissions: {  }
+  view_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  purge_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  view_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+handlers: {  }

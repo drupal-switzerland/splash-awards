@@ -1,0 +1,25 @@
+uuid: a4ff3ee0-73fc-4680-8b44-14a16505ebad
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - splashawards_base
+id: pagetitle_2
+theme: splashawards_base
+region: content
+weight: -4
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "/voting\r\n/voting/*\r\n/user\r\n/user/*\r\n/nominaties"
+    negate: false
+    context_mapping: {  }

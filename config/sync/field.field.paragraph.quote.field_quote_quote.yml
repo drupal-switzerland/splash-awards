@@ -1,0 +1,19 @@
+uuid: 53fca08e-6e4a-4b4f-9542-1f547fc44b79
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_quote_quote
+    - paragraphs.paragraphs_type.quote
+id: paragraph.quote.field_quote_quote
+field_name: field_quote_quote
+entity_type: paragraph
+bundle: quote
+label: Quote
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

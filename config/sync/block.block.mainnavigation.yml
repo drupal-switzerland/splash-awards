@@ -1,0 +1,24 @@
+uuid: 0f96d54d-cd1f-4527-869f-b4c8404d5740
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - splashawards_base
+id: mainnavigation
+theme: splashawards_base
+region: navigation
+weight: -1
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

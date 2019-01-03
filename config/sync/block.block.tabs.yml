@@ -1,0 +1,20 @@
+uuid: accea6a3-9632-42aa-9879-eb6ec45e6bf3
+langcode: en
+status: true
+dependencies:
+  theme:
+    - splashawards_base
+id: tabs
+theme: splashawards_base
+region: content
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

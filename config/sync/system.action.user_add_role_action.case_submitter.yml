@@ -1,0 +1,14 @@
+uuid: 8b5c674e-d8a4-4cab-97c5-c7df241baeaa
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.case_submitter
+  module:
+    - user
+id: user_add_role_action.case_submitter
+label: 'Voeg de rol case-submitter toe aan de geselecteerde gebruikers'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: case_submitter

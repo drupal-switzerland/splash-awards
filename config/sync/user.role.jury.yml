@@ -1,0 +1,10 @@
+uuid: dc63431c-1c1a-405e-82fc-f5d0136084f6
+langcode: en
+status: true
+dependencies: {  }
+id: jury
+label: Jury
+weight: 4
+is_admin: null
+permissions:
+  - 'view any unpublished case content'

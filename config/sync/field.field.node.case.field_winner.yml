@@ -1,0 +1,23 @@
+uuid: efa13585-5f1f-49fc-9ca3-f8ffd24a6e6d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_winner
+    - node.type.case
+id: node.case.field_winner
+field_name: field_winner
+entity_type: node
+bundle: case
+label: 'First place'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Aan
+  off_label: Uit
+field_type: boolean

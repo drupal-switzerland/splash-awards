@@ -1,0 +1,21 @@
+uuid: 6115f883-6cbe-4bb8-9ca5-a4561965f028
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_section_alignment
+    - paragraphs.paragraphs_type.section
+  module:
+    - options
+id: paragraph.section.field_section_alignment
+field_name: field_section_alignment
+entity_type: paragraph
+bundle: section
+label: Alignment
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

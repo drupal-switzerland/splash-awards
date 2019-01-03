@@ -1,0 +1,33 @@
+uuid: 5d7c2368-d862-4db1-9fcc-6393ab31f32a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.cases_pager
+  module:
+    - node
+    - views
+  theme:
+    - splashawards_base
+id: views_block__cases_pager_block
+theme: splashawards_base
+region: content
+weight: -2
+provider: null
+plugin: 'views_block:cases_pager-block'
+settings:
+  id: 'views_block:cases_pager-block'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      case: case
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

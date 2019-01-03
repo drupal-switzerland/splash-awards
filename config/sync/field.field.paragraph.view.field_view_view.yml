@@ -1,0 +1,29 @@
+uuid: eef805cf-52db-4b02-a7b4-5dc18ffd8462
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_view_view
+    - paragraphs.paragraphs_type.view
+  module:
+    - viewsreference
+id: paragraph.view.field_view_view
+field_name: field_view_view
+entity_type: paragraph
+bundle: view
+label: View
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  plugin_types:
+    block: block
+    default: 0
+    page: 0
+    feed: 0
+  handler: 'default:view'
+  handler_settings: {  }
+  preselect_views: {  }
+field_type: viewsreference

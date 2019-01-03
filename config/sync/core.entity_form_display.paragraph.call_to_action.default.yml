@@ -1,0 +1,35 @@
+uuid: f4ceff2b-6ba2-4c0a-a920-339763bc1ad6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.call_to_action.field_call_to_action_link
+    - field.field.paragraph.call_to_action.field_call_to_action_text
+    - paragraphs.paragraphs_type.call_to_action
+  module:
+    - link
+id: paragraph.call_to_action.default
+targetEntityType: paragraph
+bundle: call_to_action
+mode: default
+content:
+  field_call_to_action_link:
+    weight: 1
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_call_to_action_text:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

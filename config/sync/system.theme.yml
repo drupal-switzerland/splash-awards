@@ -1,5 +1,5 @@
 admin: seven
-default: splashawards_ch
-langcode: nl
+default: splashawards_base
 _core:
-  default_config_hash: Y2HdU3nbS5wTSLmRK8JF9t0ZrbpeMHNQcjarsDlDyEQ
+  default_config_hash: fOjer9hADYYnbCJVZMFZIIM1azTFWyg84ZkFDHfAbUg
+langcode: en

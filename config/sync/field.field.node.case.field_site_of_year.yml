@@ -1,0 +1,23 @@
+uuid: 365b1042-3b40-4abc-9f76-a579cde752a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_site_of_year
+    - node.type.case
+id: node.case.field_site_of_year
+field_name: field_site_of_year
+entity_type: node
+bundle: case
+label: 'Site of the year'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Site van het jaar'
+  off_label: Uit
+field_type: boolean

@@ -1,5 +1,5 @@
-uuid: 9c950220-1d52-4cd1-b216-746adfc2a9fd
-langcode: nl
+uuid: 55ef9beb-ba2b-4668-86e0-8f593eddfc1c
+langcode: en
 status: true
 dependencies:
   config:
@@ -7,8 +7,6 @@ dependencies:
     - field.field.block_content.header.body
   module:
     - text
-_core:
-  default_config_hash: leC2poJfXimapDAX_Yvm6aOJMG-EJu3WHdZmu_dnk5Q
 id: block_content.header.default
 targetEntityType: block_content
 bundle: header

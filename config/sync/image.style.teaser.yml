@@ -1,0 +1,23 @@
+uuid: 61072684-4e63-4cf2-b117-3ab86e4fdaab
+langcode: en
+status: true
+dependencies: {  }
+name: teaser
+label: 'Teaser (580 x 325)'
+effects:
+  70d7e323-8230-45d6-a098-3bf049a56dd8:
+    uuid: 70d7e323-8230-45d6-a098-3bf049a56dd8
+    id: image_crop
+    weight: -9
+    data:
+      width: 580
+      height: 325
+      anchor: center-top
+  0be091f3-508b-4167-a92a-d3f87d7e37d8:
+    uuid: 0be091f3-508b-4167-a92a-d3f87d7e37d8
+    id: image_scale
+    weight: -10
+    data:
+      width: 580
+      height: null
+      upscale: false

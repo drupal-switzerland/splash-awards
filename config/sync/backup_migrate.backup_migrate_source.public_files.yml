@@ -1,0 +1,12 @@
+uuid: f26bc6f5-cc2b-4cf6-af72-92a22621ceec
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: PY9HA-hogF4_qq5gZ-TqZDTixx170-APxTcq4rpa014
+id: public_files
+label: 'Map voor publieke bestanden'
+type: DrupalFiles
+config:
+  name: 'Public Files Directory'
+  directory: 'public://'

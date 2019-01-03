@@ -1,0 +1,14 @@
+uuid: 0ff7a2ae-915d-405c-87dc-d7e808c1d590
+name: 'Splash Awards Switzerland'
+mail: info@splashawards.ch
+slogan: 'The best Drupal projects and contributions from the Swiss Drupal community.'
+page:
+  403: ''
+  404: ''
+  front: /user/login
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

@@ -1,0 +1,19 @@
+uuid: b1365ca1-25f4-48a5-9b05-a91ea582e4f1
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_case_url
+field_name: field_case_url
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,116 @@
+uuid: 3ac345b4-f326-438d-b143-62743846d36f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.case.field_case_category
+    - field.field.node.case.field_case_challenges
+    - field.field.node.case.field_case_contact_email
+    - field.field.node.case.field_case_contact_name
+    - field.field.node.case.field_case_contact_phone
+    - field.field.node.case.field_case_contributions
+    - field.field.node.case.field_case_customer
+    - field.field.node.case.field_case_customer_logo
+    - field.field.node.case.field_case_description
+    - field.field.node.case.field_case_invoice_email
+    - field.field.node.case.field_case_launch_date
+    - field.field.node.case.field_case_logo
+    - field.field.node.case.field_case_organisation
+    - field.field.node.case.field_case_screenshots
+    - field.field.node.case.field_case_summary
+    - field.field.node.case.field_case_terms_agreed
+    - field.field.node.case.field_case_url
+    - field.field.node.case.field_case_video
+    - field.field.node.case.field_intro
+    - image.style.case_teasers
+    - node.type.case
+  module:
+    - ds
+    - image
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: ds_reset
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          ds_content: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      ds_content:
+        - field_case_screenshots
+        - node_title
+        - field_case_organisation
+    fields:
+      node_title:
+        plugin_id: node_title
+        weight: 1
+        label: hidden
+        formatter: default
+        settings:
+          link: true
+          wrapper: h4
+          class: ''
+        ft:
+          id: reset
+          settings:
+            lb: ''
+id: node.case.teaser
+targetEntityType: node
+bundle: case
+mode: teaser
+content:
+  field_case_organisation:
+    type: string
+    weight: 2
+    region: ds_content
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_case_screenshots:
+    type: image
+    weight: 0
+    region: ds_content
+    label: hidden
+    settings:
+      image_style: case_teasers
+      image_link: content
+    third_party_settings:
+      ds:
+        ds_limit: '1'
+        ft:
+          id: reset
+          settings:
+            lb: ''
+hidden:
+  field_case_category: true
+  field_case_challenges: true
+  field_case_contact_email: true
+  field_case_contact_name: true
+  field_case_contact_phone: true
+  field_case_contributions: true
+  field_case_customer: true
+  field_case_customer_logo: true
+  field_case_description: true
+  field_case_invoice_email: true
+  field_case_launch_date: true
+  field_case_logo: true
+  field_case_summary: true
+  field_case_terms_agreed: true
+  field_case_url: true
+  field_case_video: true
+  field_intro: true
+  field_site_of_year: true
+  field_winner: true
+  langcode: true
+  links: true

@@ -1,0 +1,19 @@
+uuid: 7e2b1f87-495b-471c-b9f9-a335b47ec5d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.user_picture
+  module:
+    - user
+_core:
+  default_config_hash: L2mtwGWH_7wDRCMIR4r_Iu_jmvQ10DV1L8ht8iNZ5qY
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content: {  }
+hidden:
+  langcode: true
+  member_for: true
+  user_picture: true

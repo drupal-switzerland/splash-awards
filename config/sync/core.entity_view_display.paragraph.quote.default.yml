@@ -1,0 +1,38 @@
+uuid: 99e28123-91e2-4f93-90cd-f50e4f07965b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.quote.field_quote_author
+    - field.field.paragraph.quote.field_quote_author_job
+    - field.field.paragraph.quote.field_quote_quote
+    - paragraphs.paragraphs_type.quote
+id: paragraph.quote.default
+targetEntityType: paragraph
+bundle: quote
+mode: default
+content:
+  field_quote_author:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_quote_author_job:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_quote_quote:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+hidden: {  }

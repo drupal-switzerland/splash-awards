@@ -1,5 +1,5 @@
 uuid: 0efdc15c-be62-4149-a59a-0cb31fdb1dc7
-langcode: nl
+langcode: en
 status: false
 dependencies:
   module:
@@ -23,6 +23,7 @@ settings:
   label_display: visible
   webform_id: vote
   default_data: ''
+  redirect: false
 visibility:
   node_type:
     id: node_type

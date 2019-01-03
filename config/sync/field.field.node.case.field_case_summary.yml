@@ -1,0 +1,19 @@
+uuid: c5351552-e14f-4a49-a524-1fb2e47e54cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_case_summary
+    - node.type.case
+id: node.case.field_case_summary
+field_name: field_case_summary
+entity_type: node
+bundle: case
+label: Summary
+description: 'Describe the case in max. 400 characters.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,14 @@
+uuid: 92ef64db-0f3f-4e8e-aaff-9e759e7ec935
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.jury
+  module:
+    - user
+id: user_remove_role_action.jury
+label: 'Remove the Jury role from the selected users'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: jury

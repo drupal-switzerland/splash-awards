@@ -1,0 +1,14 @@
+uuid: 1f61fa93-108c-4704-958c-eadc6cc1a852
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.case_submitter
+  module:
+    - user
+id: user_remove_role_action.case_submitter
+label: 'Verwijder de rol case-submitter van de geselecteerde gebruikers'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: case_submitter

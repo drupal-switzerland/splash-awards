@@ -1,0 +1,12 @@
+uuid: a319405e-dbfa-4986-8947-0aca6fc6f1e9
+langcode: en
+status: true
+dependencies: {  }
+id: case_submitter
+label: 'Case submitter'
+weight: 3
+is_admin: null
+permissions:
+  - 'edit own case content'
+  - 'use text format restricted_html'
+  - 'view own unpublished content'

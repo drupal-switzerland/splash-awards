@@ -1,0 +1,15 @@
+uuid: 8c7cf9da-bb90-43e4-9267-9e0c3b545836
+langcode: en
+status: true
+dependencies: {  }
+name: case_full
+label: 'Case full (1140 x 640)'
+effects:
+  07500556-89a3-4787-a0d0-6d340d4e8819:
+    uuid: 07500556-89a3-4787-a0d0-6d340d4e8819
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1140
+      height: 640
+      anchor: center-center

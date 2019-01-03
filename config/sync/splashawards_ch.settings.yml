@@ -1,7 +1,7 @@
 favicon:
   mimetype: image/vnd.microsoft.icon
   path: ''
-  url: 'http://splash-awards-ch.docker.amazee.io/profiles/contrib/splashawards/themes/splashawards_base/favicon.ico'
+  url: /profiles/contrib/splashawards/themes/splashawards_base/favicon.ico
   use_default: 1
 features:
   comment_user_picture: 0

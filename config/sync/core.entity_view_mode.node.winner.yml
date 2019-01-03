@@ -1,0 +1,10 @@
+uuid: 644ff090-5c0d-406e-8568-b47196aec6a2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.winner
+label: Winner
+targetEntityType: node
+cache: true

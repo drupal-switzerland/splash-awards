@@ -1,0 +1,15 @@
+uuid: 7eff46f2-cf6a-4a87-bd97-146168701caf
+langcode: en
+status: true
+dependencies: {  }
+name: sponsor_bronze
+label: 'Sponsor (bronze)'
+effects:
+  25292bdf-5b27-4a61-b7e1-fd932ceabef1:
+    uuid: 25292bdf-5b27-4a61-b7e1-fd932ceabef1
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 274
+      height: 153
+      anchor: center-center

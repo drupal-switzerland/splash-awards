@@ -1,0 +1,19 @@
+uuid: 6a22c314-17cc-4b43-af27-e7844f0b302b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_case_contributions
+    - node.type.case
+id: node.case.field_case_contributions
+field_name: field_case_contributions
+entity_type: node
+bundle: case
+label: 'Community contributions'
+description: 'How did the project contribute back to the Drupal community, eg. modules, patches, translations, documentation, sprints etc.?'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long
