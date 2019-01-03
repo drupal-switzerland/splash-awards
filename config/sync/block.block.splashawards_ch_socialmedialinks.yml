@@ -28,17 +28,17 @@ settings:
       value: ''
       description: ''
       weight: '-10'
+    linkedin:
+      value: company/drupal-mountain-camp/
+      description: 'Drupal Mountain Camp on Linkedin'
+      weight: '-9'
     vkontakte:
       value: ''
       description: ''
       weight: '-9'
-    linkedin:
-      value: company/drupal-mountain-camp/
-      description: 'Volg ons op LinkedIn'
-      weight: '-9'
     twitter:
       value: mountaincampch
-      description: 'Volg ons op Twitter'
+      description: 'Drupal Mountain Camp on Twitter'
       weight: '-8'
     behance:
       value: ''
