@@ -1,11 +1,11 @@
 uuid: 0ff7a2ae-915d-405c-87dc-d7e808c1d590
 name: 'Splash Awards Switzerland'
-mail: info@splashawards.ch
+mail: beat@gridonic.ch
 slogan: 'The best Drupal projects and contributions from the Swiss Drupal community.'
 page:
   403: ''
   404: ''
-  front: /user/login
+  front: /node/1
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en

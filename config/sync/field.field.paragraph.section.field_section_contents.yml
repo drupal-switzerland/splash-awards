@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.storage.paragraph.field_section_contents
+    - paragraphs.paragraphs_type.call_to_action
     - paragraphs.paragraphs_type.form
     - paragraphs.paragraphs_type.image
     - paragraphs.paragraphs_type.section
@@ -32,6 +33,7 @@ settings:
       video: video
       form: form
       view: view
+      call_to_action: call_to_action
     target_bundles_drag_drop:
       text:
         enabled: true
@@ -52,8 +54,8 @@ settings:
         weight: -14
         enabled: false
       call_to_action:
+        enabled: true
         weight: -13
-        enabled: false
       section:
         weight: -12
         enabled: false

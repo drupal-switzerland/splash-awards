@@ -24,7 +24,7 @@ settings:
   ajax: false
   ajax_scroll_top: form
   page: true
-  page_submit_path: ''
+  page_submit_path: /contact
   page_confirm_path: ''
   form_submit_once: false
   form_exception_message: ''
@@ -88,6 +88,44 @@ settings:
   token_update: false
   wizard_comfirmation: true
   wizard_comfirmation_label: ''
+  form_title: both
+  form_remote_addr: true
+  form_disable_inline_errors: false
+  form_required: false
+  form_submit_back: false
+  form_access_denied: default
+  form_access_denied_title: ''
+  form_access_denied_message: ''
+  form_access_denied_attributes: {  }
+  form_file_limit: ''
+  submission_views: {  }
+  submission_views_replace: {  }
+  submission_user_duplicate: false
+  submission_access_denied: default
+  submission_access_denied_title: ''
+  submission_access_denied_message: ''
+  submission_access_denied_attributes: {  }
+  submission_exception_message: ''
+  submission_locked_message: ''
+  submission_excluded_elements: {  }
+  submission_exclude_empty: false
+  submission_exclude_empty_checkbox: false
+  previous_submission_message: ''
+  previous_submissions_message: ''
+  autofill: false
+  autofill_message: ''
+  autofill_excluded_elements: {  }
+  wizard_progress_link: false
+  wizard_preview_link: false
+  preview_exclude_empty_checkbox: false
+  confirmation_exclude_query: false
+  confirmation_exclude_token: false
+  limit_total_interval: null
+  limit_total_unique: false
+  limit_user_interval: null
+  limit_user_unique: false
+  entity_limit_total_interval: null
+  entity_limit_user_interval: null
 access:
   create:
     roles:
