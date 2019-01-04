@@ -5,6 +5,37 @@ a.btn {
   text-decoration: none;
 }
 
+.call-to-action-btn {
+  background-color: #48A3A6;
+  border-color: #48A3A6;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Roboto Slab Bold", Georgia, "Times New Roman", Times, serif;
+  padding: 10px 20px;
+}
+
+.call-to-action-btn:hover {
+  background-color: #398284;
+  border-color: #398284;
+}
+
+section.banner.green .call-to-action-btn {
+  background-color: #000;
+  border-color: #000;
+}
+
+section.banner.green .call-to-action-btn:hover {
+  background-color: #212121;
+  border-color: #212121;
+}
+
+@media screen and (min-width: 992px) {
+  .call-to-action-btn {
+    font-size: 32px;
+  }
+}
+
 /**
  * Footer
  */
