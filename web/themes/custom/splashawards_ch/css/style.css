@@ -69,3 +69,7 @@ section.banner.green .call-to-action-btn:hover {
 ._margin-top-4 {
   margin-top: 80px;
 }
+
+img {
+  max-width: 100%;
+}
