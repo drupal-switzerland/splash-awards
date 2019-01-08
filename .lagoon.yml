@@ -39,3 +39,13 @@ environments:
         schedule: "*/15 * * * *"
         command: drush cron
         service: cli
+    routes:
+      - nginx:
+          - splashawards.ch
+          - splashawards.li
+          - "www.splashawards.ch":
+              tls-acme: 'true'
+              insecure: Redirect
+          - "www.splashawards.li":
+              tls-acme: 'true'
+              insecure: Redirect
