@@ -61,7 +61,7 @@
 {# Navbar #}
 {% if page.header %}
   <header role="banner">
-    {% if page.navigation or page.navigation_collapsible %}
+    {% if page.primary_menu or page.navigation_collapsible %}
       {% block navbar %}
         {%
         set navbar_classes = [
@@ -76,7 +76,7 @@
             <div class="container">
         {% endif %}
 
-          {{ page.navigation }}
+          {{ page.primary_menu }}
 
           {# .btn-navbar is used as the toggle for collapsed navbar content #}
           {% if page.navigation_collapsible %}
@@ -143,21 +143,7 @@
   {% block footer %}
     <footer class="footer {{ container }}" role="contentinfo">
       {{ page.footer }}
-      <section class="container">
-        <div class="text-center _margin-top-4">
-          <a href="https://drupalmountaincamp.ch" target="_blank">
-            <img width="200px" src="/themes/custom/splashawards_ch/logo-dmc.png" alt="Logo Drupal Mountain Camp">
-          </a>
-        </div>
-      </section>
-      <section class="container">
-        <div class="text-center _margin-top-4">
-          <a href="https://amazee.io" target="_blank" class="footer-link">
-            <span>Hosting powered by</span>
-            <img width="200px" src="/themes/custom/splashawards_ch/amazeeio.png" alt="Logo Amazee.io">
-          </a>
-        </div>
-      </section>
+      {% include '@splashawards_ch/include/footer-add-ons.html.twig' %}
     </footer>
   {% endblock %}
 {% endif %}
