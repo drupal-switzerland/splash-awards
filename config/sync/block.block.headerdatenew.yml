@@ -2,10 +2,6 @@ uuid: 9bdca5b0-0d47-442f-a854-3ac88c699554
 langcode: en
 status: true
 dependencies:
-  content:
-    - 'block_content:header:737b18ad-7aa1-4a0c-9210-2c951a05dbed'
-  module:
-    - block_content
   theme:
     - splashawards_ch
 id: headerdatenew

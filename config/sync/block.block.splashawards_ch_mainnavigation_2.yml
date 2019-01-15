@@ -12,8 +12,8 @@ _core:
   default_config_hash: zNDkZmF_aNehaeZGpHcDhM8P88SyeP37z5BpLAYy2pg
 id: splashawards_ch_mainnavigation_2
 theme: splashawards_ch
-region: sidebar_first
-weight: 0
+region: primary_menu
+weight: -6
 provider: null
 plugin: 'system_menu_block:main'
 settings:
