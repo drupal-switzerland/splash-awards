@@ -1,0 +1,13 @@
+uuid: 2f73d6f4-57b0-4c3c-8df3-d470b727b33b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: rpwvgyEURXLz_JjgMCrkS1rUv-0k3L79BpO-ReN7fDI
+id: node
+label: Content
+tags:
+  title: '[node:title] | [site:name]'
+  canonical_url: '[node:url]'
+  description: '[node:summary]'
+  image_src: '[site:url]themes/custom/splashawards_base/images/header.jpg'

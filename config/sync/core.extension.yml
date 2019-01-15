@@ -30,6 +30,8 @@ module:
   markup: 0
   maxlength: 0
   menu_ui: 0
+  metatag: 0
+  metatag_open_graph: 0
   node: 0
   options: 0
   override_node_options: 0

@@ -1,0 +1,12 @@
+uuid: bbc31710-a4df-436b-904d-007ca59e6268
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sL588ui1E_8-2c_UupwyYxcqX2OVyMFp3HTLbbFqvPc
+id: global
+label: Global
+tags:
+  title: '[current-page:title] | [site:name]'
+  canonical_url: '[current-page:url]'
+  image_src: '[site:url]themes/custom/splashawards_base/images/header.jpg'

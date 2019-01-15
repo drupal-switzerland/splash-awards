@@ -33,6 +33,7 @@
         "drupal/field_permissions": "^1.0@RC",
         "drupal/markup": "^1.0@beta",
         "drupal/maxlength": "^1.0@beta",
+        "drupal/metatag": "^1.7",
         "drupal/override_node_options": "^2.4",
         "drupal/paragraphs": "^1.5",
         "drupal/pathauto": "^1.3",

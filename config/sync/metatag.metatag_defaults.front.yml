@@ -1,0 +1,12 @@
+uuid: daaf3581-9245-49ad-8c24-d13c234b026e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 1noCXlegCr5HFehQRF1ViXy1jhU1jZ_sNN99a8Sj5jo
+id: front
+label: 'Front page'
+tags:
+  shortlink: '[site:url]'
+  canonical_url: '[site:url]'
+  image_src: '[site:url]themes/custom/splashawards_base/images/header.jpg'
