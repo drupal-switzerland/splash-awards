@@ -3,3 +3,23 @@
 /**
  * The Theme File for the splashawardsswitzerland-theme.
  */
+
+/**
+ * Implements hook_preprocess_html().
+ */
+function splashawards_ch_preprocess_html(&$variables) {
+  $system_config = Drupal::config('system.site');
+  $site_name = $system_config->getOriginal('name', FALSE);
+
+  if (isset($variables['head_title'])) {
+    foreach ($variables['head_title'] as $key => $element) {
+      if ($key === 'title') {
+        if ($element === "$site_name | Drupal") {
+          $variables['head_title']['title'] = $site_name;
+        } else {
+          $variables['head_title']['title'] = str_replace('Drupal', $site_name, $element);
+        }
+      }
+    }
+  }
+}
