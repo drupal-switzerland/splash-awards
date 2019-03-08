@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.storage.paragraph.field_section_contents
     - paragraphs.paragraphs_type.call_to_action
+    - paragraphs.paragraphs_type.file_link
     - paragraphs.paragraphs_type.form
     - paragraphs.paragraphs_type.image
     - paragraphs.paragraphs_type.section
@@ -34,6 +35,7 @@ settings:
       form: form
       view: view
       call_to_action: call_to_action
+      file_link: file_link
     target_bundles_drag_drop:
       text:
         enabled: true
@@ -62,4 +64,7 @@ settings:
       quote:
         weight: -11
         enabled: false
+      file_link:
+        enabled: true
+        weight: 11
 field_type: entity_reference_revisions
