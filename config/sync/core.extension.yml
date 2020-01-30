@@ -37,6 +37,7 @@ module:
   override_node_options: 0
   page_cache: 0
   path: 0
+  path_alias: 0
   rdf: 0
   shortcut: 0
   social_media_links: 0
