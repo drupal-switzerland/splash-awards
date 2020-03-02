@@ -1,5 +1,0 @@
-redirect_handler.import:
-  title: 'Import redirects'
-  parent: redirect.list
-  route_name: redirect_handler.import
-  menu_name: admin

@@ -1,6 +1,0 @@
-rocketship_core.default_content_default_language:
-  title: 'Rocketship Content Default Language'
-  route_name: rocketship_core.default_content_default_language
-  description: 'Set the default language to use for demo and default content'
-  parent: system.admin_config_regional
-  weight: 99

@@ -1,8 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: p_008
-label: 'P008 Focus'
-icon_uuid: edd5ab74-1e0e-455f-9a85-85f3011ddbca
-description: 'Add a block with a striking look-and-feel, with a clear call-to-action to boot. Ideal for content you want to emphasize.'
-behavior_plugins: {  }

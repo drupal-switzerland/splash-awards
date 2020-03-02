@@ -1,5 +1,0 @@
-services:
-  dropsolid_event_basic.migrate_subscriber:
-    class: Drupal\dropsolid_event_basic\EventSubscriber\MigrateEventSubscriber
-    tags:
-      - { name: event_subscriber }

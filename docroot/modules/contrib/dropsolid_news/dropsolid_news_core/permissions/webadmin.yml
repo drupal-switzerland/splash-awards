@@ -1,9 +1,0 @@
-permissions:
-  - 'create news content'
-  - 'delete any news content'
-  - 'delete own news content'
-  - 'delete news revisions'
-  - 'edit any news content'
-  - 'edit own news content'
-  - 'revert news revisions'
-  - 'view news revisions'

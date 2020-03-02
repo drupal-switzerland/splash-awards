@@ -1,8 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: p_014
-label: 'P014 Related Items'
-icon_uuid: 367caced-d7cd-4404-bb56-9d474226c942
-description: "Select other pages that are related to this one, and they'll be shown in a visually interesting list.\r\n"
-behavior_plugins: {  }

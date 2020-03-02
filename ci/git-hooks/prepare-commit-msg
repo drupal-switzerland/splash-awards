@@ -1,6 +1,0 @@
-#!/bin/sh
-
-if [ "$2" = "merge" -a -f .git/MERGE_MSG ]; then
-    # Explicitly call commit-msg hook for merge commits.
-    .git/hooks/commit-msg "$1"
-fi

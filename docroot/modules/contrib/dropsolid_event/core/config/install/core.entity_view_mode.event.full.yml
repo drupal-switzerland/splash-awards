@@ -1,9 +1,0 @@
-langcode: en
-status: true
-dependencies:
-  module:
-    - dropsolid_event_core
-id: event.full
-label: 'Full content'
-targetEntityType: event
-cache: true

@@ -1,4 +1,0 @@
-f012:
-  version: VERSION
-  js:
-    js/f012.js: { minified: false }

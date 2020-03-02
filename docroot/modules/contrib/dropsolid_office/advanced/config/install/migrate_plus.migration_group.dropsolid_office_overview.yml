@@ -1,9 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: dropsolid_office_overview
-label: 'Dropsolid Office Overview'
-description: 'Contains page migration to be used as an overview'
-source_type: ''
-module: null
-shared_configuration: null

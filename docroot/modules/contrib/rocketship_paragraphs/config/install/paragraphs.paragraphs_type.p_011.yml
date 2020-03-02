@@ -1,8 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: p_011
-label: 'P011 Form'
-icon_uuid: a073dd68-92de-4428-be46-70be29ac41a5
-description: 'Place one of your forms on your page.'
-behavior_plugins: {  }

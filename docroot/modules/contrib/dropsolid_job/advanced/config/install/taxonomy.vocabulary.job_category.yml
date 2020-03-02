@@ -1,8 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-name: 'Job Category'
-vid: job_category
-description: ''
-hierarchy: 0
-weight: 0

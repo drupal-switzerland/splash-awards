@@ -1,9 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: dropsolid_cookie_policy
-label: 'Dropsolid Cookie Policy'
-description: 'Contains Cookie Policy page'
-source_type: ''
-module: null
-shared_configuration: null

@@ -1,8 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: p_012
-label: 'P012 Guidance'
-icon_uuid: e80cfc35-abc7-4662-a7df-5bd43b70a8e1
-description: 'Display selectable multi layout image and text with background.'
-behavior_plugins: {  }

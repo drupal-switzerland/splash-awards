@@ -1,8 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: p_017
-label: 'P017 Menu Overview'
-icon_uuid: c4af8aa2-f350-4d5f-85c3-b2882aa3ed27
-description: 'Select a menu to show it on the page, or select "current page" to show menu items from the main menu that are below this page.'
-behavior_plugins: {  }

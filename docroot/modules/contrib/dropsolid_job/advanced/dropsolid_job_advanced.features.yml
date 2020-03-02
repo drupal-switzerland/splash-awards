@@ -1,6 +1,0 @@
-bundle: dropsolid
-excluded:
-  - field.field.node.job.field_canonical_image
-  - field.field.node.job.field_node_title_replacement
-  - field.storage.node.field_node_title_replacement
-required: true

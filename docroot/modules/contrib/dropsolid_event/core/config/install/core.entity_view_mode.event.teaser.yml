@@ -1,9 +1,0 @@
-langcode: en
-status: true
-dependencies:
-  module:
-    - dropsolid_event_core
-id: event.teaser
-label: Teaser
-targetEntityType: event
-cache: true

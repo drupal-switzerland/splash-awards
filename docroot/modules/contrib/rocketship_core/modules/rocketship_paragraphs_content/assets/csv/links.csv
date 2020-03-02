@@ -1,6 +1,0 @@
-id,title,weight,expanded,node,menu_name,parent_node,parent_link,menu_clickthrough_description,menu_clickthrough_image
-1,Paragraphs,0,1,1,main,,,,
-2,Page 1,1,0,2,main,1,1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras imperdiet elit a est dignissim malesuada. Sed ut tristique orci, in mattis odio.",1
-3,Page 2,2,0,3,main,1,1,"In cursus, est id placerat viverra, sapien quam ultrices sapien, eu pulvinar odio augue ac risus. Aliquam hendrerit nunc eget augue porta auctor.",2
-4,Page 3,3,0,4,main,1,1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras imperdiet elit a est dignissim malesuada. Sed ut tristique orci, in mattis odio.",3
-5,Page 4,4,0,5,main,1,1,"Pellentesque metus augue, cursus vitae placerat scelerisque, elementum mattis lorem. Integer pellentesque sodales eros, tempus dapibus.",4

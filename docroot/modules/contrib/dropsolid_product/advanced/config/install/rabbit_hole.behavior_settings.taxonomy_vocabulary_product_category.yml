@@ -1,8 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: taxonomy_vocabulary_product_category
-action: page_redirect
-allow_override: 0
-redirect: '/products?f[0]=product_categories:[term:tid]'
-redirect_code: 301

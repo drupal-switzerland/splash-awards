@@ -1,8 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: p_005
-label: 'P005 Testimonial'
-icon_uuid: fbabe16c-3726-4c92-bab0-169977c7facf
-description: 'Show a quote of a customer with an optional small profile picture, name and function.'
-behavior_plugins: {  }

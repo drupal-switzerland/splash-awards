@@ -1,6 +1,0 @@
-promote label_value item:
-  title: 'Promote label:value item'
-  description: 'Allow promotion to teaser for label:value field items.'
-manage default content default language:
-  title: 'Manage default content default language'
-  description: 'Allow setting the default language to use for demo and default content'

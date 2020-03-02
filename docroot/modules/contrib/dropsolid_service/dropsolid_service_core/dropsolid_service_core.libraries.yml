@@ -1,5 +1,0 @@
-structural:
-  version: VERSION
-  css:
-    theme:
-      css/style.service.css: {minified: true, weight: 50}

@@ -1,6 +1,0 @@
-field_settings:
-  rendered_item_search_index:
-    configuration:
-      view_mode:
-        'entity:node':
-          service: search_index

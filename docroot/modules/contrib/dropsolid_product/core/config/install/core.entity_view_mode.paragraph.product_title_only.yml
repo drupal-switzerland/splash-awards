@@ -1,9 +1,0 @@
-langcode: en
-status: true
-dependencies:
-  module:
-    - paragraphs
-id: paragraph.product_title_only
-label: 'Product title only'
-targetEntityType: paragraph
-cache: true

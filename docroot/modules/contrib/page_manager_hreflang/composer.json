@@ -1,9 +1,0 @@
-{
-  "name": "dropsolid-drupal8/page_manager_hreflang",
-  "type": "drupal-module",
-  "description": "Extend pagemanager with hreflang functionality.",
-  "homepage": "https://gitlab.com/dropsolid-drupal8/page_manager_hreflang",
-  "license": "GPL-2.0+",
-  "require": {},
-  "minimum-stability": "dev"
-}

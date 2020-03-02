@@ -1,8 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: p_003
-label: 'P003 Text Main'
-icon_uuid: b7f0c1e3-6c2a-4acb-a7e1-5a2b99190afa
-description: 'Add a block of text with title and teaser.'
-behavior_plugins: {  }

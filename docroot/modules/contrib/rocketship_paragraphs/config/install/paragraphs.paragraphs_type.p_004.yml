@@ -1,8 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: p_004
-label: 'P004 FAQ'
-icon_uuid: a9aa88ea-808c-4741-9a7a-a2ddc03a3a17
-description: 'Create a list of frequently asked questions and answers on a specific page, with a classic FAQ-styling.'
-behavior_plugins: {  }

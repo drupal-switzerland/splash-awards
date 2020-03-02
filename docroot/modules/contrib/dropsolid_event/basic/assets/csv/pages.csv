@@ -1,3 +1,0 @@
-id,uuid,title,field_paragraphs,field_header_paragraph,field_description,node_keeper,alias_keeper,path
-1,cfc4edce-b6b1-435c-96e0-3d935273a391,Events,1,1,"Overview for event",1,1,"/events"
-2,f3fdeb4c-57da-4237-9886-591faad785dc,Archive,2,2,"Archived events",1,0,"/events/archive"

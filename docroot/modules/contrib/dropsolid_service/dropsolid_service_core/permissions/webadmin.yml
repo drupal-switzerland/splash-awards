@@ -1,9 +1,0 @@
-permissions:
-  - 'create services content'
-  - 'delete any services content'
-  - 'delete own services content'
-  - 'delete services revisions'
-  - 'edit any services content'
-  - 'edit own services content'
-  - 'revert services revisions'
-  - 'view services revisions'

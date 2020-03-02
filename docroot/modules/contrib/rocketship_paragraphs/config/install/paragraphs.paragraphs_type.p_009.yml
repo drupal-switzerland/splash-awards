@@ -1,8 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: p_009
-label: 'P009 Photo gallery'
-icon_uuid: d5cef5e8-b197-472e-8799-5a074fb4062f
-description: 'Add images to your page in a clean, mobile-friendly way. Choose between a simple grid or a fancy masonry effect.'
-behavior_plugins: {  }

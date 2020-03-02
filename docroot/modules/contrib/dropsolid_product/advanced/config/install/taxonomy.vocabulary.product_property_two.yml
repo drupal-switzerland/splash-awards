@@ -1,8 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-name: 'Product property two'
-vid: product_property_two
-description: ''
-hierarchy: 0
-weight: 0

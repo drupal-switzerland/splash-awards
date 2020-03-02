@@ -1,9 +1,0 @@
-permissions:
-  - 'create product content'
-  - 'delete any product content'
-  - 'delete own product content'
-  - 'delete product revisions'
-  - 'edit any product content'
-  - 'edit own product content'
-  - 'revert product revisions'
-  - 'view product revisions'

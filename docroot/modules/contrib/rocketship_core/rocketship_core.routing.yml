@@ -1,9 +1,0 @@
-rocketship_core.default_content_default_language:
-  path: '/admin/config/regional/rocketship-default-language'
-  defaults:
-    _form: '\Drupal\rocketship_core\Form\DefaultContentDefaultLanguage'
-    _title: 'Default Content Default Language'
-  requirements:
-    _permission: 'manage default content default language'
-  options:
-    _admin_route: TRUE

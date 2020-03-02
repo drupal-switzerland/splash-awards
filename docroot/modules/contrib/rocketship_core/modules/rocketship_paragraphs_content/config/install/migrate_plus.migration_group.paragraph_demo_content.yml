@@ -1,9 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: paragraph_demo_content
-label: 'Rocketship Paragraphs Demo Content'
-description: 'Migrates examples of all paragraphs'
-source_type: ''
-module: null
-shared_configuration: null

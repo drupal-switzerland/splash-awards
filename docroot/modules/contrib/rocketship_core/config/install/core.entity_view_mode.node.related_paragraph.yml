@@ -1,9 +1,0 @@
-langcode: en
-status: true
-dependencies:
-  module:
-    - node
-id: node.related_paragraph
-label: 'Related Paragraph'
-targetEntityType: node
-cache: true

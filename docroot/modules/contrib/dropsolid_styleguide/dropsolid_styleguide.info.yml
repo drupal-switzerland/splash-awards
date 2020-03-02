@@ -1,8 +1,0 @@
-name: Dropsolid Styleguide
-type: module
-description: Extends the Styleguide contrib module with Dropsolid-specific elements.
-core: 8.x
-package: Rocketship
-version: 8.x-2.0.0-alpha10
-dependencies:
-  - styleguide

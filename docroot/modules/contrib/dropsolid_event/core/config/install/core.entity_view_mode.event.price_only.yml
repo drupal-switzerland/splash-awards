@@ -1,9 +1,0 @@
-langcode: en
-status: true
-dependencies:
-  module:
-    - dropsolid_event_core
-id: event.price_only
-label: 'Price only'
-targetEntityType: event
-cache: true

@@ -1,7 +1,0 @@
-permissions:
-  - 'add terms in blog_tags'
-  - 'create terms in blog_tags'
-  - 'delete terms in blog_tags'
-  - 'reorder terms in blog_tags'
-  - 'edit terms in blog_tags'
-  - 'view terms in blog_tags'

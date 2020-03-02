@@ -1,3 +1,0 @@
-bundle: dropsolid
-required:
-  - views.view.event_overview

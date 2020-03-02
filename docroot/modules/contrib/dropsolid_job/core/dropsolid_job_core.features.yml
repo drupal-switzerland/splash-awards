@@ -1,9 +1,0 @@
-bundle: dropsolid
-excluded:
-  - core.entity_view_display.paragraph.jobs_header.default
-  - core.entity_view_display.paragraph.jobs_header.teaser
-  - field.field.paragraph.jobs_header.field_p_bg_color
-  - field.field.paragraph.jobs_header.field_p_bg_image
-  - field.field.paragraph.jobs_header.field_replacement_title
-  - paragraphs.paragraphs_type.jobs_header
-required: true

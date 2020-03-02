@@ -1,5 +1,0 @@
-name: 'Dropsolid Nominees'
-type: module
-description: 'Contains the Nominees, which adds an overview page.'
-core: 8.x
-package: Dropsolid

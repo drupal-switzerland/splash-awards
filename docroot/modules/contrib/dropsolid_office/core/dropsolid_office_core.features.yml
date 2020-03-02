@@ -1,4 +1,0 @@
-bundle: dropsolid
-excluded:
-  - block.block.dropsolid_starter_views_block_footer_offices-footer
-required: true

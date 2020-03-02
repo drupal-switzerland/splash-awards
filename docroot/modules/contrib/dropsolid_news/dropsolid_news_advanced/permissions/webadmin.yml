@@ -1,7 +1,0 @@
-permissions:
-  - 'add terms in news_tags'
-  - 'create terms in news_tags'
-  - 'delete terms in news_tags'
-  - 'reorder terms in news_tags'
-  - 'edit terms in news_tags'
-  - 'view terms in news_tags'

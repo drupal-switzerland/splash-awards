@@ -1,8 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: p_fblikebox
-label: 'P Facebook like box'
-icon_uuid: c32f798a-47a6-471c-9f4e-5d6bcc4dcd59
-description: ''
-behavior_plugins: {  }

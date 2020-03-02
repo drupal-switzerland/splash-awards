@@ -1,9 +1,0 @@
-langcode: en
-status: true
-dependencies:
-  module:
-    - dropsolid_event_core
-id: event.date_only
-label: 'Date only'
-targetEntityType: event
-cache: true

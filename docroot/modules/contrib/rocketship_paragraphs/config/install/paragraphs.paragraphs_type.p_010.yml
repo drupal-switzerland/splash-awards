@@ -1,8 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: p_010
-label: 'P010 Logo Bar'
-icon_uuid: 8b1b1102-32d0-45db-951f-12c8d5b2fdae
-description: 'Add logos of clients or partners. They''ll be shown in a carousel and each logo can also be a link of your choosing.'
-behavior_plugins: {  }

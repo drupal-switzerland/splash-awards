@@ -1,9 +1,0 @@
-permissions:
-  - 'create blog content'
-  - 'delete any blog content'
-  - 'delete own blog content'
-  - 'delete blog revisions'
-  - 'edit any blog content'
-  - 'edit own blog content'
-  - 'revert blog revisions'
-  - 'view blog revisions'

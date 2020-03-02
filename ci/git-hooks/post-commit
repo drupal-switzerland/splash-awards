@@ -1,9 +1,0 @@
-#!/bin/sh
-
-MSG=$(git log -1 HEAD --pretty=%B)
-
-if ! [[ "$MSG" =~ ^\[\(.+\)\].*$ ]] ; then
-    echo "Your last commit message does not contain '[(branch-name)]' as the very first part"
-    echo "Please fix this immediately before creating any more commits"
-    echo "Use 'git commit --amend' to open your editor and change the commit message"
-fi

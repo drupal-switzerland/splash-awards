@@ -1,4 +1,0 @@
-services:
-  dropsolid_social_widgets.manager:
-    class: Drupal\dropsolid_social_widgets\SocialShareLinkManager
-    arguments: ['@entity_type.manager']

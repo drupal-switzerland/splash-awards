@@ -1,6 +1,0 @@
-dropsolid_cookie_policy.cookie_policy_config:
-  title: 'Cookie policy settings'
-  route_name: dropsolid_cookie_policy.cookie_policy_config
-  description: 'Enter information needed for the Cookie Policy popup here'
-  parent: system.admin_config_services
-  weight: 99

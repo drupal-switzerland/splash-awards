@@ -1,6 +1,0 @@
-page_manager.page.*.third_party.page_manager_hreflang:
-  type: mapping
-  label: 'Page manager hreflang settings'
-  mapping:
-    languages:
-      type: sequence

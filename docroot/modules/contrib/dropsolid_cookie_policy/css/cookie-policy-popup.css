@@ -1,7 +1,0 @@
-#cookie-consent-popup {
-  display: none;
-}
-
-body.cookiePolicy-is-visible #cookie-consent-popup {
-  display: block;
-}

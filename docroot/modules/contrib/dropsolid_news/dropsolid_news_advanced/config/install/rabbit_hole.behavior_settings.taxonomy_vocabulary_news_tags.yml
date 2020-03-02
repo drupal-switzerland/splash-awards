@@ -1,8 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: taxonomy_vocabulary_news_tags
-action: page_redirect
-allow_override: 0
-redirect: '/news?f[0]=tags:[term:tid]'
-redirect_code: 301

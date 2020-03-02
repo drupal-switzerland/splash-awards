@@ -1,9 +1,0 @@
-langcode: en
-status: true
-dependencies:
-  module:
-    - node
-id: node.office_promoted
-label: 'Office promoted'
-targetEntityType: node
-cache: true

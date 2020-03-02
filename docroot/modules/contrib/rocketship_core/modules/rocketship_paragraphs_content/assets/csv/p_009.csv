@@ -1,9 +1,0 @@
-id,field_p_bg_color,field_p_button,field_p_images_unlimited,field_p_load_more,field_p_subtitle,field_p_teaser,field_p_title,field_p_009_view_mode
-p_009:1,grey/#303030/#e5e5e5,A button**internal:/|Another button**internal:/,1|2|3|4|5|6|7|8|9|10|11|12|13|14,1,"Aliquam hendrerit nunc eget augue porta auctor
-","In cursus, est id placerat viverra, sapien quam ultrices sapien, eu pulvinar odio augue ac risus. Aliquam hendrerit nunc eget augue porta auctor. Sed vitae consequat sem.
-","P009 Photo gallery
-",p_009_grid
-p_009:2,"",A button**internal:/|Another button**internal:/,1|2|3|4|5|6|7|8|9|10|11|12|13|14,1,"Aliquam hendrerit nunc eget augue porta auctor
-","In cursus, est id placerat viverra, sapien quam ultrices sapien, eu pulvinar odio augue ac risus. Aliquam hendrerit nunc eget augue porta auctor. Sed vitae consequat sem.
-","P009 Photo gallery
-",p_009_masonry

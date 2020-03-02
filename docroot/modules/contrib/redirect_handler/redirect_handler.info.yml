@@ -1,8 +1,0 @@
-name: Redirect handler
-type: module
-description: Provides a csv import for redirects and some drush commands to manage redirects.
-core: 8.x
-package: Rocketship
-version: 8.x-2.0.0-alpha5
-dependencies:
-  - redirect

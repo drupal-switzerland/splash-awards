@@ -1,8 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-name: 'Job Property Two'
-vid: job_property_two
-description: ''
-hierarchy: 0
-weight: 0

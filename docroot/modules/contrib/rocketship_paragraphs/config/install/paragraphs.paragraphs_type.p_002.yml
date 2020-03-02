@@ -1,8 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: p_002
-label: 'P002 Image'
-icon_uuid: 62a72975-3250-4397-8f20-cfb88b2deda5
-description: 'Add a large image to one of your pages. The image will span the full width of the screen for extra effect.'
-behavior_plugins: {  }

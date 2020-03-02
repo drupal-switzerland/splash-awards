@@ -1,5 +1,0 @@
-drupal.field_hidden:
-  version: 1.x
-  css:
-    theme:
-      css/field_hidden.css: {}

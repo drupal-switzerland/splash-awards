@@ -1,8 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: p_001
-label: 'P001 Story'
-icon_uuid: 873d0eed-987e-4b9b-8a3a-651edf3c1b6f
-description: 'Add a block of text paired with a visual (or video) to the left or right'
-behavior_plugins: {  }

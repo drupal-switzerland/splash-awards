@@ -1,8 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: p_006
-label: 'P006 Video'
-icon_uuid: dde7560c-3df1-40e0-89e0-dad39143df56
-description: 'Integrate a YouTube or Vimeo video on your page.'
-behavior_plugins: {  }

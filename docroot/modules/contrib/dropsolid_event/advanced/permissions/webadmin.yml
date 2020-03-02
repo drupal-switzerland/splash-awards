@@ -1,6 +1,0 @@
-permissions:
-  - 'access webform overview'
-  - 'access webform submission log'
-  - 'view any webform submission'
-  - 'edit any webform submission'
-  - 'delete any webform submission'

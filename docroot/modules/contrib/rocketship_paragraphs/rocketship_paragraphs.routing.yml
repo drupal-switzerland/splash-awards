@@ -1,9 +1,0 @@
-rocketship_paragraphs.admin_settings_form:
-  path: '/admin/config/system/rocketship-paragraphs'
-  defaults:
-    _form: '\Drupal\rocketship_paragraphs\Form\SettingsForm'
-    _title: 'Rocketship Paragraphs Settings'
-  requirements:
-    _permission: 'manage rs paragraph settings'
-  options:
-    _admin_route: TRUE

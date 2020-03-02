@@ -1,4 +1,0 @@
-f009:
-  version: VERSION
-  js:
-    js/f009.js: { minified: false }

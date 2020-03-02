@@ -1,9 +1,0 @@
-langcode: en
-status: true
-dependencies:
-  module:
-    - node
-id: node.frontpage
-label: Frontpage
-targetEntityType: node
-cache: true

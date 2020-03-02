@@ -1,9 +1,0 @@
-permissions:
-  - 'create job content'
-  - 'delete any job content'
-  - 'delete own job content'
-  - 'delete job revisions'
-  - 'edit any job content'
-  - 'edit own job content'
-  - 'revert job revisions'
-  - 'view job revisions'

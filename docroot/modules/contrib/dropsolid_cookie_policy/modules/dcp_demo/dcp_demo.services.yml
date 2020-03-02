@@ -1,6 +1,0 @@
-services:
-  dcp_demo.subscriber:
-    class: Drupal\dcp_demo\EventSubscriber\DCPDemoSubscriber
-    arguments: ['@config.factory']
-    tags:
-      - { name: event_subscriber }
